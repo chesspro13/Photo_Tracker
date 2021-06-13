@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:5-23:19
+14        android:allowBackup="true"
+14-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] /home/chesspro13/.gradle/caches/transforms-2/files-2.1/e4e60fa01183f8bb008117a464bbdf63/core-1.5.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.MyApplication"
+23-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:9-51
+24        android:usesCleartextTraffic="true" >
+24-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-44
+25        <activity android:name="com.example.myapplication.MainActivity" >
+25-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:9-22:20
+25-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:17-69
+27-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:17-77
+29-->/home/chesspro13/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[com.karumi:dexter:6.2.2] /home/chesspro13/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/dexter-6.2.2/AndroidManifest.xml:27:9-29:72
+33            android:name="com.karumi.dexter.DexterActivity"
+33-->[com.karumi:dexter:6.2.2] /home/chesspro13/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/dexter-6.2.2/AndroidManifest.xml:28:13-60
+34            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+34-->[com.karumi:dexter:6.2.2] /home/chesspro13/.gradle/caches/transforms-2/files-2.1/dc20f18dd12f4e86686e55d3f62a8b8c/dexter-6.2.2/AndroidManifest.xml:29:13-69
+35    </application>
+36
+37</manifest>
